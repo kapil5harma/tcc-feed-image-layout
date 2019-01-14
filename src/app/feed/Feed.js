@@ -10,30 +10,14 @@ class Feed extends Component {
     this.props.onFetchFeed();
   };
 
-  goToPost = postId => {
-    // console.log('postId: ', postId);
-    this.props.history.push({
-      pathname: 'post',
-      state: {
-        postId
-      }
-    });
-  };
-
   render() {
     const { feed } = this.props;
+    console.log('feed: ', feed);
     return (
       <div className='Feed'>
         {feed && feed.feed ? (
-          feed.feed.map((feed, index) => {
-            return (
-              <Card
-                key={feed._id}
-                feed={feed}
-                clickable={true}
-                handleClick={() => this.goToPost(feed._id)}
-              />
-            );
+          feed.feed.map(feed => {
+            return <Card key={feed._id} feed={feed} clickable={true} />;
           })
         ) : (
           <Spinner />
