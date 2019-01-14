@@ -9,6 +9,7 @@ import Feed from '../feed/Feed';
 class Post extends Component {
   componentDidMount = () => {
     this.props.onFetchPost(this.props.location.state.postId);
+    window.scrollTo(0, 0);
   };
 
   componentDidUpdate = (prevProps, prevState) => {
