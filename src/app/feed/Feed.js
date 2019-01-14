@@ -12,7 +12,6 @@ class Feed extends Component {
 
   render() {
     const { feed } = this.props;
-    console.log('feed: ', feed);
     return (
       <div className='Feed'>
         {feed && feed.feed ? (

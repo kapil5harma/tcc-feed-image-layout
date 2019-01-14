@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 
 class Card extends Component {
   goToPost = postId => {
-    console.log('postId: ', postId);
     this.props.history.push({
       pathname: `/post/${postId}`,
       state: {
@@ -17,7 +16,6 @@ class Card extends Component {
 
     return clickable ? (
       <div className='Card' onClick={() => this.goToPost(feed._id)}>
-        <div>Clickable</div>
         <img src={feed.postContent[0]} alt={feed.postTitle} />
         <div className='title'>{feed.postTitle}</div>
         <div className='Creator'>
@@ -32,7 +30,6 @@ class Card extends Component {
       </div>
     ) : (
       <div className='Card'>
-        <div>Not Clickable</div>
         <img src={feed.postContent[0]} alt={feed.postTitle} />
         <div className='title'>{feed.postTitle}</div>
         <div className='Creator'>
