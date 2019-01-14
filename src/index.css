@@ -1,14 +1,75 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f2f3f5;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-container {
+  padding: 0.75rem;
+  /* width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  padding: 1rem; */
+}
+
+.heading {
+  height: 4.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Feed {
+  /* display: flex;
+  flex-wrap: wrap; */
+  column-count: 2;
+  column-width: 160px;
+  column-gap: 0.75rem;
+  /* padding: 0.75rem; */
+}
+.Card {
+  /* width: 50%;
+  margin: 0.5rem; */
+  break-inside: avoid;
+  /* break-after: avoid; */
+  /* break-before: avoid; */
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.3);
+  margin-bottom: 0.75rem;
+}
+.Card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.title {
+  border-bottom: 0.5px solid rgba(22, 22, 22, 0.2);
+  padding: 0.5rem;
+}
+.Creator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+.left img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.Post {
+  /* padding: 0.75rem; */
 }
