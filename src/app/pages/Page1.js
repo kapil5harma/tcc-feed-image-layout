@@ -383,15 +383,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -430,15 +430,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -477,15 +477,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -524,15 +524,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -571,15 +571,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -618,15 +618,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
@@ -665,15 +665,15 @@ export default class Page1 extends Component {
                     src={watermelon}
                     alt='watermelon'
                   />
-                  <div className='name'>Strawberry</div>
+                  <div className='name'>Watermelon</div>
                   <div className='quantity-price'>
-                    <div className='quantity'>1kg</div>
-                    <div className='price'>$4.00</div>
+                    <div className='quantity'>1.5kg</div>
+                    <div className='price'>$3.50</div>
                   </div>
                   <div className='quantity-pill'>
                     <div className='left-div' style={{ display: 'flex' }}>
                       <div className='left'> - </div>
-                      <div className='center'> 1.5 kg </div>
+                      <div className='center'> 2.5 kg </div>
                       <div className='right'> + </div>
                     </div>
                     <div
