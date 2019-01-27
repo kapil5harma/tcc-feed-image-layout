@@ -13,8 +13,8 @@ class MainPage extends Component {
         {/* <Route path='/feed' exact strict component={Feed} />
         <Route path='/post/:id' exact strict component={Post} /> */}
         <Route path='/page1' exact strict component={Page1} />
-        <Route path='/page2' exact strict component={Page2} />
-        <Route path='/page3' exact strict component={Page3} />
+        {/* <Route path='/page2' exact strict component={Page2} />
+        <Route path='/page3' exact strict component={Page3} /> */}
 
         <Redirect to='/page1' />
       </Switch>
