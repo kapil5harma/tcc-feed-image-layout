@@ -1,32 +1,130 @@
 .App {
-  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  background: #ffffff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headImage {
+  background-image: url('./app/assets/how-to-eat-more-fruits-and-veg.png');
+  height: 32.3vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.37;
+  letter-spacing: 0.4px;
+  color: #ffffff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-and-search {
+  padding: 28px 24px 0 24px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#left {
+  width: 8.5px;
+  height: 16px;
+}
+#search {
+  width: 16px;
+  height: 16px;
+}
+.container {
+  background: #ffffff;
+  padding: 16px;
+  column-count: 2;
+  column-width: 151px;
+  /* column-gap: 0.75rem; */
+  column-gap: 19px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* padding: 28px 28px 8px 28px; */
+  /* justify-content: space-between; */
+}
+.card {
+  break-inside: avoid;
+  padding: 10px;
+  box-sizing: border-box;
+  /* max-width: 151px; */
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.name {
+  /* font-family: WorkSans; */
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: -0.4px;
+  color: #404852;
+  padding-left: 5px;
+}
+.quantity-price {
+  display: flex;
+  margin-top: 4px;
+  padding-left: 5px;
+}
+.quantity {
+  opacity: 0.5;
+  /* font-family: WorkSans; */
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -0.3px;
+  color: #404852;
+}
+.price {
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -0.3px;
+  color: #ff5055;
+  padding-left: 10px;
+}
+.quantity-pill {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.left {
+  line-height: 21px;
+  opacity: 0.3;
+  border-bottom-left-radius: 12.5px;
+  border-top-left-radius: 12.5px;
+  border: 1px solid #979797;
+  padding: 0 7px 0 7px;
+}
+.center {
+  line-height: 21px;
+  opacity: 0.3;
+  padding: 0px 5px;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+}
+.right {
+  line-height: 21px;
+  padding: 0 7px 0 7px;
+  opacity: 0.3;
+  border: 1px solid #979797;
+  border-bottom-right-radius: 12.5px;
+  border-top-right-radius: 12.5px;
 }
