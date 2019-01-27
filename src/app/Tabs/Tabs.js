@@ -6,7 +6,9 @@ import Tab from './Tab';
 const ListTabs = glamorous.ul({
   paddingLeft: 0,
   listStyle: 'none',
-  margin: 0,
+  whiteSpace: 'nowrap',
+  margin: '0 10px',
+  boxSizing: 'border-box',
   height: '50px',
   // opacity: 0.05
   backgroundColor: 'rgb(246,247,247)'
@@ -72,7 +74,7 @@ const TabsContainer = glamorous.div({
 });
 
 const ReactTabs = glamorous.div({
-  position: 'realative'
+  position: 'relative'
 });
 
 class Tabs extends Component {
